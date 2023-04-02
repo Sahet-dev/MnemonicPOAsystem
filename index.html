@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+
+
+
+    <title>Random POA Sentence Generator</title>
+    <script>
+     function generatePOASentence() {
+      document.getElementById("poa-sentence").innerHTML = " ";
+    const people = [
+  "Ugweý",
+  "Şifu",
+  "Panda",
+  "Yolbars",
+  "Krokodil",
+  "Maýmyn",
+  "Durna",
+  "Taýluň",
+  "Şeň",
+  "Äşpez durna",
+  "Rapunzel",
+  "Pişik Tom",
+  "Şrek",
+  "Jyn",
+  "Karol",
+  "Kawalski",
+  "Maşa",
+  "Akpamyk",
+  "Tarzan",
+  "Buratino",
+  "Brus Li",
+  "Jeki Çan",
+  "Tayson",
+  "Jumong",
+  "Zorro",
+  "Habib Nurmagomedow",
+  "Jon Sena",
+  "Dwayne Jonson",
+  "Konor MAKgregor",
+  "Batrok",
+  "Thor",
+  "Tony Stark",
+  "HALK",
+  "DR. Strange",
+  "Ultron",
+  "Spiderman",
+  "Kapitan Amerka",
+  "Skot Leň",
+  "Gara Pantera",
+  "Grut",
+  "G.B",
+  "Kim Jong",
+  "Tramp",
+  "Makron",
+  "Putin",
+  "Xi Zin Pin",
+  "Gitler",
+  "Stalin",
+  "Zelenski",
+  "Biden",
+  "Lepnardo DiKaprio",
+  "Wil Smit",
+  "Tom Kruz",
+  "Brad Pit",
+  "Tom Hardi",
+  "Amitah Baçan",
+  "Kajol",
+  "Şahruhhan",
+  "Amirhan",
+  "Salmanhan",
+  "S-beater",
+  "Mähri Pirgulyýewa",
+  "Yagşy",
+  "Baýma",
+  "DJ begga",
+  "Alişer Uzokow",
+  "Adiz Rajabow",
+  "Murad Rajabow",
+  "Munisa Rizayewa",
+  "Şahzoda",
+  "Ronaldo Bugatti",
+  "Ronaldino Yelpegiç",
+  "Marselo",
+  "Messi",
+  "Neymar",
+  "Ramos",
+  "Beýl",
+  "Mbape",
+  "Zidan",
+  "M Salah"
+    ];
+
+    const objects = [ "odun",  "çüý kakýar",  "skoç",
+      "kankida",  "dubulga",  "yumurtga",  "gazan",  "tirýäpke",  "per",  "laptopyň",  "agaja",  "äçki",  "kofe",  "wafli",  "palta",  "stuly",  "telpegi",
+        "käşir",  "krosowkany",  "turnikda",  "pyçak",  "suwy",  "gruja",  "oky",  "kardona",  "haly",  "et",  "skripka",  "kömüre",  "golf topy",  "kubik",
+          "şar",  "kaktus",  "süwsä",  "ýassyk",  "kereb",  "galkany",  "şänik",  "sowgat guty",  "fen",  "çupa-cups",  "ýüpde",  "pagta",  "gantel",  "kagyz", 
+           "köne telefonda",  "münbere",  "Bomba",  "mikrofon",  "welikden",  "kalaşnikden",  "sumkany",  "disk",  "pampers",  "koş",  "kir soda",  "çörek", 
+            "kitap",  "käsä",  "jorap",  "lazer",  "äpişgä",  "çäşligi",  "gül",  "krowadyň",  "telewizor",  "baklaşka",  "hotdoga",  "altyn bloklary",  "daşy",
+              "Bugatti",  "Yelpegiç",  "gitara",  "trosdan",  "dişini",  "ördek",  "topy",  "armatur",  "Makaron",  "Futbolka"
+    ];
+
+    const actions = [
+        
+  "ýakýar",
+  "kakýar",
+  "oraýar",
+  "taýýar",
+  "jadylap ulaldyp kiçeltýär",
+  "tigirleýär",
+  "byçgalaýar",
+  "süýkeýär",
+  "gyrkýar",
+  "üstünden otyrýar",
+  "dyrmyşýar",
+  "swarkalaýar",
+  "ýençýär",
+  "iýýär",
+  "çapyar",
+  "oklaýar",
+  "ýere urýar",
+  "dograýar",
+  "depýar",
+  "çekilýär",
+  "çarhlaýar",
+  "çeynege guýýar",
+  "urýar",
+  "pikodan atýar",
+  "gylyç sançýar",
+  "yere ýazýar",
+  "gowurýar",
+  "çalýar",
+  "elini sokýar",
+  "golf taýak bn urýar",
+  "düzýär",
+  "çişirýär",
+  "goparýar",
+  "münýär",
+  "gujaklayar",
+  "çykarýar",
+  "rekaşet edip zyňýar",
+  "çakýar",
+  "acýar",
+  "bn guranýar",
+  "ýalaýar",
+  "asylýar",
+  "ýygyar",
+  "göterýär",
+  "ýelimleýär",
+  "jaň edýär",
+  "çyzýar",
+  "partladýar",
+  "düzýär",
+  "ýykylýar",
+  "atyar",
+  "şapbatlaýar",
+  "zyňýar",
+  "geýýär",
+  "yuwýar",
+  "saçýar",
+  "gemirýär",
+  "üfläp açýar",
+  "tüýkirýär",
+  "geýýär",
+  "kesýär",
+  "spreý edýär",
+  "syha düzýär",
+  "oryar",
+  "üstünde bökýär",
+  "çekiçleýär",
+  "depýär",
+  "kelle goýýar",
+  "hatara düzýär",
+  "dyrnaýar",
+  "sürýär",
+  "bn yelpeýär",
+  "satyn alýar",
+  "yöräp geçýär",
+  "çotkolaýar",
+  "gysymlaýar",
+  "halta salýar",
+  "epleýär",
+  "gaýnadýar",
+  "galgaýar"
+    ];
+
+    const randomPersonIndex = Math.floor(Math.random() * people.length);
+    const randomObjectIndex = Math.floor(Math.random() * objects.length);
+    const randomActionIndex = Math.floor(Math.random() * actions.length);
+
+    const randomPersonWithIndex = (randomPersonIndex < 10 ? "0" : "") + (randomPersonIndex < 10 ? randomPersonIndex : randomPersonIndex.toString().padStart(2, "0")) ;
+    const randomObjectWithIndex = (randomObjectIndex < 10 ? "0" : "") + (randomObjectIndex < 10 ? randomObjectIndex : randomObjectIndex.toString().padStart(2, "0"));
+    const randomActionWithIndex = (randomActionIndex < 10 ? "0" : "") + (randomActionIndex < 10 ? randomActionIndex : randomActionIndex.toString().padStart(2, "0"));
+
+    const randomPerson = people[randomPersonIndex];
+    const randomObject = objects[randomObjectIndex];
+    const randomAction = actions[randomActionIndex];
+
+    const sentence = randomPerson + " " + randomObject + " " + randomAction + "."; 
+
+    
+     
+
+    document.getElementById("person-index").innerHTML = randomPersonWithIndex;
+    document.getElementById("object-index").innerHTML = randomObjectWithIndex;
+    document.getElementById("action-index").innerHTML = randomActionWithIndex;
+
+
+
+
+
+    const myTimeout = setTimeout(myGreeting, 5000);
+
+    function myGreeting() {
+      document.getElementById("poa-sentence").innerHTML = sentence;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    </script>
+  </head>
+  <body class="d-flex h-100 text-center text-bg-dark">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col"> 
+          <h1>Random POA Sentence Generator</h1>
+
+          <button onclick="generatePOASentence()" class="btn btn-success">Generate Sentence</button><br>
+          
+          <b>
+            <h2>
+              <span id="person-index"></span>
+              <span id="object-index"></span>
+              <span id="action-index"></span>
+            </h2>
+            
+          </b>
+          <p id="poa-sentence"></p>
+          
+        </div>
+      </div>
+    </div>
+    
+     
+  </body>
+</html>
